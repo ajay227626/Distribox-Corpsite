@@ -7,13 +7,14 @@ import WhyChooseUs from './components/WhyChooseUs';
 import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 import Footer from './components/Footer';
+import Maps from './components/Maps';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'products', 'why-choose-us', 'contact'];
+      const sections = ['home', 'about', 'products', 'why-choose-us', 'contact', 'location'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -42,6 +43,7 @@ function App() {
       <ProductCategories />
       <WhyChooseUs />
       <Contact />
+      <Maps />
       <Footer />
       <WhatsAppButton />
     </div>

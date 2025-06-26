@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaArrowRight as ArrowRight, FaStar as Star, FaUsers as Users, FaTruck as Truck } from 'react-icons/fa';
+import { FaArrowRight as ArrowRight, FaStar as Star, FaUsers as Users, FaTruck as Truck, FaStore as Store, FaIndustry as Industry } from 'react-icons/fa';
 
 interface HeroProps {
   setActiveSection: (section: string) => void;
@@ -40,8 +40,7 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
                 <span className="text-2xl lg:text-3xl font-medium text-blue-200">Fashion Solutions</span>
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed">
-                Your trusted partner for premium men's, women's, and kids' fashion wholesale in Amritsar, Punjab. 
-                Serving retailers across India with quality apparel and competitive pricing.
+                Your trusted wholesale partner for Men’s wear, Kid’s wear and Women’s wear. Serving retailers across India.
               </p>
             </div>
 
@@ -49,11 +48,20 @@ const Hero: React.FC<HeroProps> = ({ setActiveSection }) => {
             <div className="flex flex-wrap gap-8">
               <div className="flex items-center space-x-3">
                 <div className="bg-amber-500 p-2 rounded-full">
-                  <Users className="text-white" size={20} />
+                  <Industry className="text-white" size={20} />
+                </div>
+                <div>
+                  <div className="text-2xl font-bold">3000+</div>
+                  <div className="text-blue-200 text-sm">Manufacturers Partners</div>
+                </div>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="bg-amber-500 p-2 rounded-full">
+                  <Store className="text-white" size={20} />
                 </div>
                 <div>
                   <div className="text-2xl font-bold">500+</div>
-                  <div className="text-blue-200 text-sm">Happy Partners</div>
+                  <div className="text-blue-200 text-sm">Happy Retailers</div>
                 </div>
               </div>
               <div className="flex items-center space-x-3">

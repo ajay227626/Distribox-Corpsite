@@ -32,7 +32,8 @@ const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection }) => {
     { id: 'about', label: 'About Us' },
     { id: 'products', label: 'Products' },
     { id: 'why-choose-us', label: 'Why Choose Us' },
-    { id: 'contact', label: 'Contact' }
+    { id: 'contact', label: 'Contact' },
+    { id: 'location', label: 'Map Location' },
   ];
 
   return (

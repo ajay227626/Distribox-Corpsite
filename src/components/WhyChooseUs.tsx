@@ -42,22 +42,18 @@ const WhyChooseUs: React.FC = () => {
 
         {/* Statistics Section */}
         <div className="mt-16 bg-white rounded-2xl shadow-lg p-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="text-3xl lg:text-4xl font-bold text-blue-600 mb-2">500+</div>
-              <div className="text-gray-600">Happy Partners</div>
+              <div className="text-gray-600">Manufacturers Partners</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl lg:text-4xl font-bold text-amber-600 mb-2">50+</div>
-              <div className="text-gray-600">Years Experience</div>
+              <div className="text-3xl lg:text-4xl font-bold text-amber-600 mb-2">3000+</div>
+              <div className="text-gray-600">Happy Retailers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl lg:text-4xl font-bold text-green-600 mb-2">10K+</div>
-              <div className="text-gray-600">Products Delivered</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl lg:text-4xl font-bold text-purple-600 mb-2">24/7</div>
-              <div className="text-gray-600">Customer Support</div>
+              <div className="text-3xl lg:text-4xl font-bold text-green-600 mb-2">50+</div>
+              <div className="text-gray-600">Years of Experience</div>
             </div>
           </div>
         </div>
@@ -65,7 +61,7 @@ const WhyChooseUs: React.FC = () => {
         {/* Testimonial */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-2xl max-w-4xl mx-auto">
-            <div className="space-y-6">
+            {/* <div className="space-y-6"> */}
               <div className="text-6xl text-blue-300">"</div>
               <blockquote className="text-xl lg:text-2xl italic leading-relaxed">
                 We've been sourcing our garments from Distribox Wholesale Pvt Ltd for over 20 years now, and the quality, pricing, and service have consistently exceeded our expectations. Their wide variety and prompt delivery have helped us serve our customers better and grow our business.
@@ -74,35 +70,35 @@ const WhyChooseUs: React.FC = () => {
                 <div className="font-bold text-lg">Bhupinder Singh</div>
                 <div className="text-blue-200">Owner, Soni Garments</div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-2xl max-w-4xl mx-auto">
-            <div className="space-y-6">
+            {/* <div className="space-y-6"> */}
               <div className="text-6xl text-blue-300">"</div>
-              <blockquote className="text-xl lg:text-2xl italic leading-relaxed">
+              <blockquote className="text-xl lg:text-2xl italic leading-relaxed mt-0">
                 Distribox is not just a supplier—they’re a growth partner. Their transparent pricing, flexible ordering system, and commitment to quality have made them our go-to source for wholesale garments. We’ve scaled confidently thanks to their support.
               </blockquote>
               <div className="pt-4">
                 <div className="font-bold text-lg">Deepak</div>
                 <div className="text-blue-200">Owner, Brother Collection</div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white p-8 rounded-2xl max-w-4xl mx-auto">
-            <div className="space-y-6">
+            {/* <div className="space-y-6"> */}
               <div className="text-6xl text-blue-300">"</div>
-              <blockquote className="text-xl lg:text-2xl italic leading-relaxed">
+              <blockquote className="text-xl lg:text-2xl italic leading-relaxed mt-0">
                 What sets Distribox apart is their customer support and understanding of the wholesale market. Their team always ensures timely updates, stock availability, and seamless communication. Truly professional and dependable!
               </blockquote>
               <div className="pt-4">
                 <div className="font-bold text-lg">Jaspreet Singh</div>
                 <div className="text-blue-200">Owner, Singapore Fashion House</div>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>

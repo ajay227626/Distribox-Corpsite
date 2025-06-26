@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold text-amber-400">Distribox.</h3>
+            <h3 className="text-2xl font-bold text-400">Distribox.</h3>
             <p className="text-gray-300 leading-relaxed">
               Your trusted B2B fashion wholesale partner in Amritsar, Punjab. 
               Quality apparel for retailers across India.
