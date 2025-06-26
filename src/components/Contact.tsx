@@ -1,33 +1,8 @@
-import React, { useState } from 'react';
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaInstagram, FaPaperPlane } from 'react-icons/fa';
-import { ContactForm } from '../types';
+import React from 'react';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaInstagram } from 'react-icons/fa';
 import SubmitForm from './Form';
-// import {}
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState<ContactForm>({
-    name: '',
-    email: '',
-    phone: '',
-    company: '',
-    message: ''
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Here you would typically integrate with Google Sheets or your backend
-    console.log('Form submitted:', formData);
-    alert('Thank you for your inquiry! We will get back to you within 24 hours.');
-    setFormData({ name: '', email: '', phone: '', company: '', message: '' });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
-      ...prev,
-      [e.target.name]: e.target.value
-    }));
-  };
-
   return (
     <section id="contact" className="py-20 bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

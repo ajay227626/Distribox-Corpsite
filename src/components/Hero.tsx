@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaArrowRight as ArrowRight, FaStar as Star, FaUsers as Users, FaTruck as Truck, FaStore as Store, FaIndustry as Industry } from 'react-icons/fa';
+import { FaArrowRight as ArrowRight, FaStar as Star, FaTruck as Truck, FaStore as Store, FaIndustry as Industry } from 'react-icons/fa';
 
 interface HeroProps {
   setActiveSection: (section: string) => void;

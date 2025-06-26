@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -8,7 +8,6 @@ import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 import Footer from './components/Footer';
 import Maps from './components/Maps';
-import ContactForm from './components/Form';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaExternalLinkAlt as ExternalLink } from 'react-icons/fa';
 
 const Maps: React.FC = () => {
     const [mapLoaded, setMapLoaded] = useState(false);
