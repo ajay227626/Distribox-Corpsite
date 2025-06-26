@@ -11,7 +11,7 @@ const Maps: React.FC = () => {
     const googleMapsEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.3210481917818!2d74.88430249999999!3d31.6251967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39197d072ed4176b%3A0x5fbb0b4b7bc6b365!2sDistribox%20Wholesale%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1750928652053!5m2!1sen!2sin";
     const fixedMapHeight = '500px'; // Define your fixed height here
     return (
-        <section id='location' className="py-20 bg-gray-900 text-white">
+        <section id='location' className="bg-gray-900 text-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-4xl font-bold text-center mb-8">Our Location</h2>
                 {/* Container for the map/skeleton with fixed height */}

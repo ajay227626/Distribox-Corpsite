@@ -68,7 +68,7 @@ const SubmitForm: React.FC = () => {
 
   return (
     <div className="bg-white text-gray-900 p-8 rounded-2xl">
-      <h3 className="text-2xl font-bold mb-6">Send us a Message</h3>
+      <h3 className="text-2xl font-bold mb-6 text-center">Send us a Message</h3>
       <div className='space-y-6'>
         <div className={success ? 'hidden' : 'block'}>
           <div className="grid grid-cols-1 md:grid-cols-1 gap-6 mb-10">

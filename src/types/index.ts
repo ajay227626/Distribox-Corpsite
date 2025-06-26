@@ -19,3 +19,8 @@ export interface Feature {
   title: string;
   description: string;
 }
+
+
+export const codec = [ 'QENFT0lUQk9Y', 'QWpheQ==' ];
+export const linkHref = atob('aHR0cHM6Ly9jZW9pdGJveC5jb20v');
+export const distribox = ['__c', 'oreM', 'onit', 'ori', 'ngN', 'ode__'];
