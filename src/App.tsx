@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import WhatsAppButton from './components/WhatsAppButton';
 import Footer from './components/Footer';
 import Maps from './components/Maps';
+import ContactForm from './components/Form';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');

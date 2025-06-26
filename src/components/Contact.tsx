@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaInstagram, FaPaperPlane } from 'react-icons/fa';
 import { ContactForm } from '../types';
+import SubmitForm from './Form';
+// import {}
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState<ContactForm>({
@@ -115,9 +117,7 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white text-gray-900 p-8 rounded-2xl" style={{minHeight: '670px', height: '100%'}}>
-            <iframe src="https://script.google.com/macros/s/AKfycbzzJ2L3_DtaFMLFmT4u6N7Y5ay0tp88a05q8X8zsc59Cd67UXy4U0HSKZQ9LViLsERx6g/exec" width="100%" height="100%" frameBorder="0" marginHeight={0} marginWidth={0}>Loading...</iframe>
-          </div>
+          <SubmitForm />
         </div>
       </div>
     </section>
